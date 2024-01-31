@@ -81,7 +81,7 @@ public class Binary {
 	}
 
 	/**
-	 * Add two binary numbers together
+	 * And two binary numbers together
 	 * @param num1 The first addend object
 	 * @param num2 The second addend object
 	 * @return The added binary instance

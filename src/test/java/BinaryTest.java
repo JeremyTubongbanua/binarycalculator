@@ -196,7 +196,7 @@ public class BinaryTest {
     @Test
     public void multiply2() {
         Binary binary1 = new Binary("01010"); // 10
-        Binary binary2 = new Binary("00000"); // 0
+        Binary binary2 = new Binary("0"); // 0
         Binary binary3 = Binary.multiply(binary1, binary2);
         assertTrue(binary3.getValue().equals("0")); // 0
     }   
